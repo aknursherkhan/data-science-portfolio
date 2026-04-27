@@ -1,6 +1,6 @@
 # Aknur Sherkhan - Data Science & ML Portfolio
 
-[LinkedIn](https://linkedin.com/in/aknursherkhan) · aknur@uni.minerva.edu
+[LinkedIn](https://linkedin.com/in/aknursherkhan) · [aknur@uni.minerva.edu](mailto:aknur@uni.minerva.edu)
 
 ---
 
@@ -31,6 +31,13 @@ Discrete-event traffic simulator built on real OpenStreetMap road networks. Cars
 Discrete-event simulation of airport security screening built from scratch in object-oriented Python: Poisson arrivals, truncated-normal service times, k parallel queues with shortest-queue routing, and an extended model where 3% of travelers trigger secondary screening by a single senior officer (blocking their primary queue while under inspection). Results validated against the Pollaczek-Khinchin formula across station counts k = 5 to 15.
 
 `NumPy` · `SciPy` · `M/G/k queueing theory` · `Pollaczek-Khinchin`
+
+---
+
+### [Bayesian Regression Analysis of Buenos Aires Apartment Prices](https://github.com/aknursherkhan/buenos-aires-real-estate-pricing)
+Compares Gaussian vs. Student-t likelihoods on 2,522 Buenos Aires apartment listings. The question: does the price-per-sqm relationship follow a Gaussian distribution, or are there enough genuine outliers to warrant a heavier-tailed model? The Student-t wins decisively by PSIS-LOO cross-validation (elpd difference of 395.6, 98% stacking weight). The posterior for the degrees-of-freedom parameter nu concentrates around 3.2 (89% HDI: 2.8 to 3.6), indicating the Buenos Aires apartment market has genuinely heavy-tailed pricing that a Gaussian model systematically underestimates.
+
+`PyMC` · `ArviZ` · `PSIS-LOO` · `Student-t regression` · `Bayesian model comparison`
 
 ---
 
